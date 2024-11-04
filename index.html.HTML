@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telepediatria</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos Generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+h1, h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Navegación */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #005f99;
+    color: #fff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Sección de Inicio */
+.inicio {
+    background-color: #e0f7fa;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.inicio h1 {
+    color: #007bff;
+}
+
+.inicio p {
+    color: #333;
+}
+
+/* Sección de Biografía */
+#biografia {
+    background-color: #f0e5cf;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#biografia p {
+    color: #5a4b41;
+}
+
+/* Sección de Habilidades */
+#habilidades {
+    background-color: #e2f0d9;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.skills-list li {
+    display: inline-block;
+    padding: 10px;
+    background-color: #c5e1a5;
+    margin: 5px;
+    border-radius: 5px;
+    color: #333;
+}
+
+/* Sección de Proyectos */
+#proyectos {
+    background-color: #ffebee;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.project {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ffcdd2;
+    border-radius: 8px;
+    color: #333;
+}
+
+/* Sección de Contacto */
+#contacto {
+    background-color: #e8eaf6;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#contacto a {
+    color: #3f51b5;
+    text-decoration: none;
+}
+
+#contacto a:hover {
+    text-decoration: underline;
+}
+
+/* Pie de Página */
+footer {
+    background-color: #005f99;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+    </style>
+</head>
+<body>
+
+    <!-- Navegación -->
+    <nav>
+        <div class="logo">Jhon Angel</div>
+        <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#biografia">Biografía</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sección de Inicio -->
+    <section id="inicio" class="section inicio">
+        <h1>¡Hola, soy [Tu Nombre]!</h1>
+        <p>Bienvenido a mi página web personal. Aquí encontrarás información sobre mí, mis habilidades, y proyectos.</p>
+    
+        <img src="shutterstock_2040223502.jpg" alt="Mi Logo" class="header-logo">
+    
+        <video controls width="600">
+            <source src="video_2022-12-17_01-48-27.mp4" type="video/mp4"> <!-- Reemplaza "mi-video.mp4" con el nombre de tu archivo -->
+            Tu navegador no soporta la reproducción de videos.
+        </video>
+    </section>
+
+    <!-- Sección de Biografía -->
+    <section id="biografia" class="section">
+        <h2>Biografía</h2>
+        <p>Soy un [tu profesión o área de estudio] apasionado por [tus intereses principales, como desarrollo web, diseño gráfico, ciencia, etc.]. Tengo experiencia en [describir brevemente tu experiencia o estudios].</p>
+    </section>
+
+    <!-- Sección de Habilidades -->
+    <section id="habilidades" class="section">
+        <h2>Habilidades</h2>
+        <ul class="skills-list">
+            <li>HTML y CSS</li>
+            <li>JavaScript</li>
+            <li>Desarrollo web</li>
+            <li>Diseño responsivo</li>
+            <li>Control de versiones (Git)</li>
+        </ul>
+    </section>
+
+    <!-- Sección de Proyectos -->
+    <section id="proyectos" class="section">
+        <h2>Proyectos</h2>
+        <div class="project">
+            <h3>Proyecto 1</h3>
+            <p>Descripción breve del proyecto 1, tecnologías usadas, y objetivos.</p>
+        </div>
+        <div class="project">
+            <h3>Proyecto 2</h3>
+            <p>Descripción breve del proyecto 2, tecnologías usadas, y objetivos.</p>
+        </div>
+        <!-- Agrega más proyectos si es necesario -->
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="section">
+        <h2>Contacto</h2>
+        <p>¿Te gustaría trabajar conmigo o tienes alguna pregunta? Puedes contactarme a través de los siguientes medios:</p>
+        <ul>
+            <li>Email: <a href="mailto:tuemail@example.com">tuemail@example.com</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/tu-usuario">Mi Perfil de LinkedIn</a></li>
+            <li>GitHub: <a href="https://github.com/tu-usuario">Mi Perfil de GitHub</a></li>
+        </ul>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>&copy; 2024 [Tu Nombre]. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
